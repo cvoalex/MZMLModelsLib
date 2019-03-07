@@ -1,0 +1,11 @@
+framework module MZMLModels {
+  umbrella header "MZMLModels-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module MZMLModels.Swift {
+    header "MZMLModels-Swift.h"
+    requires objc
+}
