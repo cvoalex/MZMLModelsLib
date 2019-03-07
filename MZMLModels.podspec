@@ -31,7 +31,8 @@ MobZ ml models
   s.ios.deployment_target = '11.0'
   s.ios.vendored_frameworks = 'MZMLModels.framework'
 
-  s.source_files = 'MZMLModels/Classes/**/*'
+  # s.source_files = 'MZMLModels/Classes/**/*'
+  s.source_files = 'MZMLModels/Classes/*.{h,m,swift}'
   
   # s.resource_bundles = {
   #   'MZMLModels' => ['MZMLModels/Assets/*.png']
